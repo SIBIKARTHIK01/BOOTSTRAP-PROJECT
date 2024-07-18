@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+                    <!-- EVENT_1 -->
+    <!-- <h2>Enter you age to find your voting Eligibility</h2>
+    <input id="age" type="number" placeholder="Enter age">
+    <input type="button" value="submit" onclick="findeligibilty()"> -->
+
+                        <!-- EVENT-2 -->
+        <input type="button" value="On" onclick="Toggle(event)">         
+</body>
+<script>
+                    //  EVENT_1 
+    // function findeligibilty() {
+    //     const age =document.getElementById("age").value
+    //     if(age>=18){
+    //        alert("Eligible for voting")
+    //     }else{
+    //         alert("Not Eligible for voting")
+    //     }
+    // }
+
+                // Event-2
+    let state = true  
+     function Toggle(e) {
+        console.log(e.target)
+        if (state){
+        e.target.value ="Off"
+        e.target.style ="background-color:red"
+        state=!state        
+      }else{
+        e.target.value ="On"
+        e.target.style ="background-color:green"
+        state=!state     
+      }
+      console.log(state);
+    }
+    
+    
+</script>
+</html>

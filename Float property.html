@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Property</title>
+    <style>
+        .div1 {
+            float: left;
+            border: 4px solid darkcyan;
+            padding: 10px;
+        }
+        .div2{
+            border: 4px solid fuchsia;
+            padding: 10px;
+        }
+        .div3{
+            float: right;
+            border: 6px solid grey;
+            padding: 12px;
+        }
+        .div4{
+            border: 6px solid blue;
+            padding: 12px;
+            clear:right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Float Property</h1>
+    <h2>without clear</h2>
+    <div class="div1">Div1</div>
+    <div class="div2">
+        Div2-Notice that div2 is after div1 in the HTML code.
+        However,Since div1 floats to the left,the text in div2 flows around div1
+    </div><br><br>
+    <h2>with clear</h2>
+    <div class="div3">div3</div>
+    <div class="div4">
+        Div4-Here, class:left; moves div4 down below the floating div3. 
+        The value "left" clears element floated to the left.
+        You can also clear "right" and "both".
+    </div>
+</body>
+</html>

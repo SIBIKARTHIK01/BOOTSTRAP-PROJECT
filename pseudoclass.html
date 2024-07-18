@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div p{
+            background-color: aqua;
+
+        } */
+
+        /* div > p{ background-color: red;} */
+
+        /* div + p{ background-color: blueviolet;} */
+
+        div ~ p{background-color: brown;}
+
+
+
+    </style>
+</head>
+<body>
+    <h1> Descendant selectors</h1>
+    
+    The Descendant selecttor matches all elements
+    that are Descendant of a specified element.
+    
+    <h2> Adjecent sibling selectors</h2>
+    
+    This selector is uesed to select the element that is directly after another specific element.
+    
+    <h3> Child selectors</h3>
+
+    This selector selects all elements that are the children of a specified element.
+
+    <h4> General sibling selectors</h4>
+
+    The general sibling selectors selects all elements that are next siblings of all elements.
+
+    <div>
+        
+        <p>paragraph 1</p>
+        <p>paragraph 2</p>
+        <section>
+            Not child but Descendant
+        <p> paragraph 3 (inside a section  element).</p>
+        </section>
+        <p> paragraph 4</p>
+        <p> paragraph 5</p>
+    </div>
+    
+        <p>paragraph 6</p>
+        <p>paragraph 7</p>
+        <p> paragraph 8</p>
+    
+    
+
+</body>
+</html>

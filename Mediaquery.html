@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .para
+        {
+            display: block;
+            background-color: black;
+            color: aqua;
+        }
+
+        @media screen and (min-width: 768px)
+ 
+        {
+            .para{
+                display: none;
+            }
+        }
+                    /* or */
+        /* @media screen and (max-width: 768px)
+       
+        {
+            .para{
+                display: none;
+            }
+        } */
+
+
+            
+        
+    </style>
+
+</head>
+<body>
+    <div class="para">
+        <p>This is Media Query </p>
+    </div>
+    
+</body>
+</html>

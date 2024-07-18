@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image blur</title>
+    <style>
+        .img{
+            box-shadow: 20px 20px 35px burlywood;
+            filter: blur(5px);
+            filter: brightness(60%);
+            /* filter: grayscale(100%); */
+            filter: opacity(0.8);
+            filter: drop-shadow(10px 10px 5px brown);
+            padding: 100px;
+        }
+        p{
+            text-shadow: 3px 4px 1px blueviolet;
+            font-size: 50px;
+        }
+    </style>
+
+</head>
+<body>
+    <img class="img" src="hand-removebg-preview.png" width="600" height="500">
+    <p>This is a hand image</p>
+</body>
+</html>

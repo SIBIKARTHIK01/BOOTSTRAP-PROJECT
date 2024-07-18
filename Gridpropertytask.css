@@ -1,0 +1,40 @@
+.grid-container{
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 200px 200px 200px 200px;
+    grid-template-areas:
+    "one one one one one one"
+    "two three three three four four"
+    "five three three three six six"
+    "five seven seven seven seven seven";
+}
+
+#one{
+    grid-area: one;
+}
+
+#two{
+    grid-area: two;
+    background-color: red !important;
+}
+
+#three{
+    grid-area: three;
+}
+
+#four{
+    grid-area: four;
+    background-color: red !important;
+}
+
+#five{
+    grid-area: five;
+}
+
+#six{
+    grid-area: six;
+    background-color: red !important;
+}
+
+#seven{
+    grid-area: seven;
+}

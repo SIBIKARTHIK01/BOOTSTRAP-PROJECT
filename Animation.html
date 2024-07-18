@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+
+        .plane{
+            /* margin-left: 400px; */
+            /* margin-top: 200px; */
+            width: 300px;
+            /* translate */
+            /* transform: translateX(500px); */
+            /* transform: translateY(500px); */
+            /* transform: translate(600px,600px); */
+
+
+            /* Rotate */
+            /* transform: rotateX(150deg); */
+            /* transform: rotateY(220deg); */
+            /* transform: rotateZ(220deg); */
+            /* transform: rotate(150deg); */
+            /* transform: rotate3d(1,1,2,270deg); */
+
+            /* scale */
+            /* transform: scaleX(3); */
+            /* transform: scaleY(3); */
+            /* transform: scale(6,5); */
+
+            /* Skew */
+            /* transform: skewX(200deg); */
+            /* transform: skewY(190deg); */
+            /* transform: skew(200deg); */
+        }
+        .plane:hover{
+            /* width: 800px; */
+            /* transition: width 5s ease-in-out; */
+            transform: translateX(400px) translateY(400px) rotate(360deg);
+            /* transform: rotate(360deg); */
+            /* transform: rotate(360deg) scale(3); */
+            transition: transform 2s ease-in;
+            /* transition-delay: 1s; */
+
+        }
+    </style>
+</head>
+<body>
+    <img src="pokeman-removebg-preview.png" alt="plane" class="plane">
+</body>
+</html>

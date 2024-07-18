@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital& display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+
+
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0.7rem 7rem;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
+    background-color: chocolate; 
+
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: black !important; 
+}
+
+#navbarSupportedContent a{
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: 500;
+    /* border-bottom: 2px solid red; */
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid black;
+}
+
+#navbarSupportedContent button{
+    background: black;
+    color: aliceblue;
+    border-radius: 20px;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*****HOME****/
+
+#home{
+    background: linear-gradient(rgb(0,0,0,0.3),rgb(0,0,0,0.4)),url(SPIECES.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 100px;
+    color: blanchedalmond;
+    letter-spacing: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px blanchedalmond,
+                 0px 2px 0px blanchedalmond,
+                 0px 3px 0px blanchedalmond,
+                 0px 4px 0px blanchedalmond,
+                 0px 5px 0px blanchedalmond,
+                 0px 6px 0px blanchedalmond,
+                 0px 7px 0px blanchedalmond,;
+}
+    
+/* #home h2{
+    font-size: 100px;
+    color: red;
+} */

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and Lists CSS</title>
+<style>
+    .fr{
+        list-style-type: lower-greek;
+    }
+    ul{
+        list-style-type: georgian;
+    }
+    ol{
+        list-style-type: armenian;
+    }
+
+
+    a:link{
+        color: darkred;
+    }
+    a:visited{
+        color: chartreuse;
+    }
+    a:hover{
+        color: crimson;
+        text-decoration: none;
+        background-color: black;
+    }
+    a:active{
+        color: salmon;
+        background-color: cyan;
+    }
+    
+    p:first-line{
+        color: firebrick;
+  background-color: yellow;
+    }
+    #tab th{
+        color: black;
+        background-color: tomato;
+    }
+    #tab tr:nth-child(odd){
+        color: rgb(15, 112, 10);
+        background-color: rgb(146, 226, 236);
+    }
+    #tab tr:hover{
+        color: hotpink;
+        background-color: darkgoldenrod;
+    }   
+
+</style>
+</head>
+<body>
+    <a href="https://youtu.be/QCYDdAnHZzg" target="_blank"> Click Here</a><br><br>
+    <br><br>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio obcaecati voluptatibus facilis consequuntur, officia dignissimos aliquid ex sit in blanditiis voluptates nulla temporibus voluptas. Iure molestias nulla nam culpa quaerat.
+    </p><br><br><br>
+
+
+    <table id="tab" border="5" width="300" height="100" align="center">
+        <caption>Employee Details</caption>
+        <tr>
+            <th>s.No</th>
+         <th>Emp Id</th>
+        <th>Emp Name</th>
+        <th>Age</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>201</td>
+            <td>Sri</td>
+            <TD>25</TD>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>202</td>
+            <td>Sai</td>
+            <TD>26</TD>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td >203</td>
+          <td>Naveen</td>
+            <td>28</td> 
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>204</td>
+            <td>Nandha</td>
+            <TD>23</TD>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>205</td>
+            <td>Linga</td> 
+            <TD>29</TD>
+        </tr>
+        </table><br><br><br>
+    <h1><center>List </center></h1>
+    <ul class="fr">
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>BlueBerry</li>
+        <li>Pineapple</li>
+    </ul>
+    <ul>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>BlueBerry</li>
+        <li>Pineapple</li>
+    </ul>
+    <ol>
+        <li>Mango</li>
+        <li>Apple</li>
+        <li>BlueBerry</li>
+        <li>Pineapple</li>
+    </ol>
+    
+</body>
+</html>

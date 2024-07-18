@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Combinators</title>
+    <style>
+        /* div p{
+            color: gold;
+            background-color: black;
+        } */
+        /* div > p{
+        background-color: teal;
+         } */
+        /* div + p{
+        background-color: fuchsia;
+         } */
+        div ~p {
+        background-color: coral;
+         }  
+    </style>
+</head>
+<body>
+
+    <h1>CSS Combinators</h1>
+    <h1>
+        A combinators is something that explain the relationship between the selectors. 
+    </h1>
+    <h2>There are four different combinators in CSS: </h2>
+    <h3>1.Descendant selectors (space)</h3>
+    <h3>2.Child selectors(>)</h3>
+    <h3>3.Adjacent sibling selector(+)</h3>
+    <h3>4.General sibling selector(~)</h3><br><br>
+    
+    
+    <h2>Child selector(>)</h2>
+         <p>The Child selector selects all element that are the Childof a specified element</p>
+    <h2>Adjacent sibling selector(+)</h2>
+        <p>The + selector is used to select the element that is directly after another specific element </p>
+<h2> General sibling selector(~) </h2>
+       <p>the General sibling selector (~) selects all element that are next sibling of a specified element</p> <br><br>
+    
+    
+     <div>
+        <p>paragraph 1</p>
+        <p>paragraph 2</p>
+        <section>
+            not child but Descendant
+            <p>paragraph 3(inside a selector element).</p>
+        </section>
+        <p>paragraph 4</p>
+        <p>paragraph 5</p>
+    </div>
+    <p>paragraph 6</p>
+    <p>paragraph 7</p>
+    <p>paragraph 8</p>
+
+</body>
+</html>
